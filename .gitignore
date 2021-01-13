@@ -1,3 +1,4 @@
+clean_bot_messages/public_key
 token
  build*
 *.o
