@@ -18,7 +18,7 @@ function processMsg(tg, data) {
         return
 
     try {
-        if (data.includes("Жаба")) {
+        if (data.includes("Жаба") || data.include("@tgtoadbot")) {
             setTimeout(delFrogMsg, 60000, tg, data)
         }
 
